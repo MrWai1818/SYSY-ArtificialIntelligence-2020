@@ -1,0 +1,14 @@
+2 : A(mike)
+5 : L(tony,snow)
+6 : (A(x),S(x),C(x))
+8 : (L(z,snow),S(z))
+9 : (L(tony,u),L(mike,u))
+11 : (A(w),C(w),S(w))
+14 : R[2,11a](w=mike) = "¬C['mike']", "S['mike']"
+15 : R[2,6a](x=mike) = "S['mike']", "C['mike']"
+20 : R[5,9a](u=snow) = "¬L['mike', 'snow']"
+22 : R[14a,15b] = "S['mike']"
+24 : R[20,8a](z=mike) = "¬S['mike']"
+25 : R[22,24] = []
+-------------------------------------------------
+running time : 0.0010066032409667969

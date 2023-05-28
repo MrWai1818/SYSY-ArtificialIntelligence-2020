@@ -1,0 +1,10 @@
+1.code文件夹存放相关代码
+	其中：1.main.py作为程序接口将所有模块链接成程序
+	          2.resolution.py为归结算法的实现
+	          3.uiresolution.py为ui界面的代码，uiresolution.ui为ui界面的pyqt文件
+	          4.main.spec为程序打包产生文件
+2.result文件夹存放代码运行结果,以txt形式
+3.img存放实验报告所需图片
+4.test.txt存放实验数据
+5.main.exe为实验程序，验收程序时双击打开，在上方输入栏按照test中文本样式输入，点击按钮，
+结果会显示在下方文本框中，结果文件也会相应产生在resulet文件夹中

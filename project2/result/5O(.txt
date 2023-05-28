@@ -1,0 +1,12 @@
+1 : On(aa,bb)
+2 : On(bb,cc)
+3 : Green(aa)
+4 : Green(cc)
+5 : (On(x,y),Green(x),Green(y))
+6 : R[3,5b](x=aa) = "¬On['aa', 'y']", "Green['y']"
+8 : R[4,5c](y=cc) = "¬On['x', 'cc']", "¬Green['x']"
+9 : R[1,6a](y=bb) = "Green['bb']"
+10 : R[2,8a](x=bb) = "¬Green['bb']"
+11 : R[9,10] = []
+-------------------------------------------------
+running time : 0.0009989738464355469
